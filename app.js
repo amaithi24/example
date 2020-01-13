@@ -16,11 +16,6 @@ app.get('/', (req, res) => {
     res.end('Hello World!jjjjj');
    //// res.json({"message": "Welcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes."});
 });
-app.get('/d', (req, res) => {
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    res.end('!jjjjj');
-   //// res.json({"message": "Welcome to EasyNotes application. Take notes quickly. Organize and keep track of all your notes."});
-});
 
 // listen for requests
 app.listen(8080, () => {
